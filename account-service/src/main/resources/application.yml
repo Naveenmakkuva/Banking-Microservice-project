@@ -1,0 +1,6 @@
+spring:
+  config:
+    import:
+    -  "optional:configserver:http://localhost:9092/"
+  application:
+    name: account-service
